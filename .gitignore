@@ -1,0 +1,22 @@
+/vendor/
+wp-config.php
+
+
+# ignore these plugins
+wp-content/plugins/hello.php
+
+
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+#Hidden system and misc files
+._*
+.DS_Store
+.htaccess
+.idea
+.project
+.Trashes
+[Tt]humbs.db
+error_log
